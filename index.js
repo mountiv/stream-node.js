@@ -37,3 +37,11 @@ function readAndParse() {
   });
 }
 readAndParse();
+
+function outputParsedData() {
+  const readStream = fs.createReadStream("Data7602DescendingYearOrder.csv");
+  const writeStream = fs.createWriteStream("business_data_output.csv");
+  readStream.pipe(writeStream);
+  writeStream.on("finish", () => console.log("Copying completed"));
+}
+outputParsedData();
