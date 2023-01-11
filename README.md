@@ -1,4 +1,4 @@
-# Stream in Node.js ©
+# Stream in Node.js
 
 ## Idea of this Tutorial
 Have you ever run into problems while trying to process huge files in your Node.js application? Large files can overtax your available memory and slow down your workflow to a crawl. Rather than splitting up the files, dealing with multiple errors, or suffering through a time lag, you can try using streams instead.
@@ -36,5 +36,5 @@ You can use the SaaS cloud-native platform for seamless editing, debugging, depl
 - Run `npm install` in terminal
 - Run `node index`
 
----
-**Congratulations, you earned it!**
+## License & Copyright 
+© lucky7123
