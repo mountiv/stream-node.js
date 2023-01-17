@@ -36,5 +36,5 @@ You can use the SaaS cloud-native platform for seamless editing, debugging, depl
 - Run `npm install` in terminal
 - Run `node index`
 
-## License & Copyright 
-© lucky7123
+## Author 
+© me 
